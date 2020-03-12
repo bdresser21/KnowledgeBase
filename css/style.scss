@@ -1,4 +1,4 @@
-* {
+/** {
     margin: 0 ;
     padding: 0 ;
     box-sizing: border-box ;
@@ -8,4 +8,15 @@
     a.nav-link {
         color: white ;
     }
+
+    li.nav-item {
+        list-style: none;
+        
+    }
 }
+
+.navbar-toggler-icon {
+    background-color: black;
+    color: white ;
+}
+**/

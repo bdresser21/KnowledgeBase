@@ -1,11 +1,23 @@
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+/** {
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box ;
 }
 
-.navbar a.nav-link {
-  color: white;
+.navbar {
+    a.nav-link {
+        color: white ;
+    }
+
+    li.nav-item {
+        list-style: none;
+        
+    }
 }
+
+.navbar-toggler-icon {
+    background-color: black;
+    color: white ;
+}
+**/
 /*# sourceMappingURL=style.css.map */
