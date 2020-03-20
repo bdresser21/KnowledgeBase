@@ -12,12 +12,12 @@ body {
 }
 
 .navbar {
-  background-color: #404996;
+  background-color: #0e38c2;
 }
 
 .navbar .navbar-brand {
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 
 .navbar-dark .navbar-toggler {
@@ -34,11 +34,11 @@ body {
     }
 }*/
 .jumbotron {
-  background-color: #d3d6ff;
+  background-color: #d2ddff;
 }
 
 .jumbotron h1 {
-  color: #232A5C;
+  color: #041957;
   font-weight: 600;
 }
 
@@ -48,16 +48,16 @@ body {
 }
 
 .jumbotron .btn {
-  border: 2px solid #404996;
-  background-color: #404996;
+  border: 2px solid #0e38c2;
+  background-color: #0e38c2;
   color: white;
   height: 55px;
 }
 
 .jumbotron .btn:hover {
-  background-color: #232A5C;
+  background-color: #041957;
   color: white;
-  border: 2px solid #232A5C;
+  border: 2px solid #041957;
 }
 
 #content-area .card-title {
