@@ -1,23 +1,66 @@
-/** {
-    margin: 0 ;
-    padding: 0 ;
-    box-sizing: border-box ;
+/*Color Vars */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
 }
 
 .navbar {
-    a.nav-link {
-        color: white ;
-    }
-
-    li.nav-item {
-        list-style: none;
-        
-    }
+  background-color: #404996;
 }
 
-.navbar-toggler-icon {
-    background-color: black;
-    color: white ;
+.navbar .navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
 }
-**/
+
+.navbar-dark .navbar-toggler {
+  border: 0px;
+}
+
+/*header {
+    
+    background-color: #D4E4FF;
+    color: rgb(16, 49, 122) ;
+
+    h1 {
+        margin: 0 auto ;
+    }
+}*/
+.jumbotron {
+  background-color: #d3d6ff;
+}
+
+.jumbotron h1 {
+  color: #232A5C;
+  font-weight: 600;
+}
+
+.jumbotron .form-control {
+  width: 60%;
+  height: 55px;
+}
+
+.jumbotron .btn {
+  border: 2px solid #404996;
+  background-color: #404996;
+  color: white;
+  height: 55px;
+}
+
+.jumbotron .btn:hover {
+  background-color: #232A5C;
+  color: white;
+  border: 2px solid #232A5C;
+}
+
+#content-area .card-title {
+  font-weight: bold;
+}
 /*# sourceMappingURL=style.css.map */

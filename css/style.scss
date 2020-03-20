@@ -1,22 +1,88 @@
-/** {
+/*Color Vars */
+$dark-purple: #232A5C;
+$medium-purple: #404996 ;
+$light-purple: #d3d6ff ;
+
+* {
     margin: 0 ;
     padding: 0 ;
     box-sizing: border-box ;
 }
 
+body {
+    font-family: 'Open Sans', sans-serif ;
+    color: #333 ;
+}
+
+
 .navbar {
-    a.nav-link {
-        color: white ;
+    background-color: $medium-purple;
+
+    .navbar-brand {
+        font-weight: bold;
+        font-size: 1.5rem;
     }
 
     li.nav-item {
-        list-style: none;
+    } 
+}
+
+.navbar-dark {
+    .navbar-toggler {
+        border: 0px ;
+    }
+    
+}
+
+/*header {
+    
+    background-color: #D4E4FF;
+    color: rgb(16, 49, 122) ;
+
+    h1 {
+        margin: 0 auto ;
+    }
+}*/
+
+.jumbotron {
+    background-color: $light-purple;
+
+    h1 {
+        color: $dark-purple ;
+        font-weight: 600;
+    }
+
+    .form-control {
+        width: 60% ;
+        height: 55px ;
+    }
+
+    .btn {
+        border: 2px solid $medium-purple;
+        background-color: $medium-purple ;
+        color: white ;
+        height: 55px ;
         
+
+        &:hover {
+            background-color: $dark-purple ;
+            color: white;
+            border: 2px solid $dark-purple ;
+        }
     }
 }
 
-.navbar-toggler-icon {
-    background-color: black;
-    color: white ;
+#content-area {
+    .card {
+        padding-bottom: ;
+    }
+    .card-title {
+        font-weight: bold ;
+    }
 }
-**/
+
+$breakpoint-large: 960px ;
+
+@media (min-width: $breakpoint-large) {
+
+}
