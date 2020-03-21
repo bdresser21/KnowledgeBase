@@ -22,6 +22,7 @@ body {
     border: 2px solid $medium-blue;
     background-color: $medium-blue ;
     color: white ;
+    transition: 0.3s ;
 
     &:hover {
         background-color: $dark-blue ;
@@ -43,6 +44,17 @@ body {
 .navbar-dark {
     .navbar-toggler {
         border: 0px ;
+    }
+
+    .navbar-nav {
+        .nav-link {
+            color: rgba(255,255,255, .8);
+            transition: 0.3s ;
+
+            &:hover {
+                color: white ;
+            }
+        }
     }
     
 }
@@ -89,7 +101,32 @@ body {
     }
 }
 
+
+
+
+
+/*Media Queries*/
+
+$breakpoint-small: 576px ;
+$breakpoint-medium: 768px ;
 $breakpoint-large: 960px ;
+
+@media (max-width: $breakpoint-small) {
+    .navbar-brand {
+        padding-left: .7rem;
+    }
+
+    h4 {
+        text-align: center;
+    }
+}
+
+@media (max-width: $breakpoint-medium) {
+
+    h4 {
+        text-align: center;
+    }
+}
 
 @media (min-width: $breakpoint-large) {
     /*Fixes nav-item padding on large screens*/
